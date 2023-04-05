@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+*{
+ font-family: 'Poppins', sans-serif;
+}
+  .logo{
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 25px;
+  }
+  .logo span{
+    color: #0eb9e4 !important;
+  }
+  .nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+  }
+  .menu{
+    display: none;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+  .nav a,
+  a{
+    color: #fff;
+    font-size: 20px;
+    text-decoration: none;
+  }
+  .menu .bar{
+    width: 35px;
+    height: 5px;
+    background: #fff;
+    margin: 6px auto;
+    margin-right: 20px;
+  }
+.title{
+  font-size: 30px;
+  font-weight: 800;
+  color: #333;
+}
+
+.carousel{
+  margin-bottom: 4rem;
+}
+.carousel-caption{
+  bottom: 3rem;
+  z-index: 10;
+}
+.carousel-item{
+  height: 32rem;
+  background-size: cover;
+  background-position: 50% 0;
+}
+.carousel-item > img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: 32rem;
+}
+ .btn-post{
+  background: rgb(6,25,89) !important;
+  border: none;
+}
+.btn-post:hover{
+  background: rgb(12,49,175) !important;
+}
+.top{
+  background: #001454 !important;
+}
+.post{
+  box-shadow: 0 0 8px rgba(0,0,0,.5);
+}
+.img-d-post{
+  object-fit: cover;
+}
+
+.cat h3{
+  font-weight: 700;
+}
+.title{
+  font-size: 25px;
+  font-weight: 800;
+  color: #333;
+}
+.btn-caroussel{
+  background: rgb(30,45,96) !important;
+  border: none;
+  margin-top: 20px;
+  transition: .3s;
+}
+.btn-caroussel:hover{
+  background: rgb(32,58,148) !important;
+}
+.btn-post, 
+.btn-des{
+  background: rgb(6,25,89) !important;
+  border: none;
+}
+.btn-post:hover,
+.btn-des:hover{
+  background: rgb(12,49,175) !important;
+}
+.form-signin form{
+  padding-top: 80px;
+}
